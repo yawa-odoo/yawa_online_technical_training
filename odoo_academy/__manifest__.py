@@ -2,7 +2,7 @@
 
 {
     'name': 'Odoo Academy',
-    'summary' : """Academy app to manage Training""".
+    'summary': """Academy app to manage Training""",
     'description': """
         Academy Module to Manage Training:
     """,
@@ -10,11 +10,11 @@
     'website': 'www.odoo.com',
     'category': 'Training',
     'version': '0.1',
-    'depends': ['base'].
-    'data':[
-        
+    'depends': ['base'],
+    'data': [
+
     ],
     'demo': [
-        
+
     ]
 }
