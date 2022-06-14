@@ -6,6 +6,7 @@
     'description': """
         Academy Module to Manage Training:
     """,
+    'license': 'LGPL-3',
     'author': 'Odoo',
     'website': 'www.odoo.com',
     'category': 'Training',
