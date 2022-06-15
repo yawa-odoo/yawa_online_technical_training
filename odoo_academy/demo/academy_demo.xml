@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- odoo_academy.erp_101 if referenced outside of academy module-->
+        <record model="academy.course" id="erp_101">
+            <field name="name">ERP_101</field>
+            <field name="description">LEARN ERP Systems</field>
+            <field name="level">beginner</field>
+        </record>
+
+        <record model="academy.course" id="acconting_200">
+            <field name="name">Acconting_200</field>
+            <field name="description">LEARN acconting_200</field>
+            <field name="level">intermediate</field>
+        </record>
+
+        <record model="academy.course" id="website_500">
+            <field name="name">Website_500</field>
+            <field name="description">LEARN Website_500</field>
+            <field name="level">advanced</field>
+        </record>
+    </data>
+</odoo>

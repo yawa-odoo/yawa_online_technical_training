@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from odoo import models, fields, api
+from odoo import models, fields
 
 
 class Course(models.Model):
@@ -12,7 +12,7 @@ class Course(models.Model):
     level = fields.Selection(string='Level', selection=[
                              ('beginner', 'Beginner'),
                              ('intermediate', 'Intermediate'),
-                             ('beginner', 'Beginner'),
+                             ('advanced', 'Advanced'),
                              ],
                              copy=False
                              )
