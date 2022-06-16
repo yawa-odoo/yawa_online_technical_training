@@ -6,18 +6,21 @@
             <field name="name">ERP_101</field>
             <field name="description">LEARN ERP Systems</field>
             <field name="level">beginner</field>
+            <field name="additional_fee">100.0</field>
         </record>
 
         <record model="academy.course" id="acconting_200">
             <field name="name">Acconting_200</field>
             <field name="description">LEARN acconting_200</field>
             <field name="level">intermediate</field>
+            <field name="additional_fee">30.0</field>
         </record>
 
         <record model="academy.course" id="website_500">
             <field name="name">Website_500</field>
             <field name="description">LEARN Website_500</field>
             <field name="level">advanced</field>
+            <field name="additional_fee">90.0</field>
         </record>
     </data>
 </odoo>
