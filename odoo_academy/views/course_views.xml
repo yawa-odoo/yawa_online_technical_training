@@ -53,6 +53,8 @@
                 <search>
                     <field name="name"/>
                     <field name="description"/>
+                    <separator/>
+                    <filter string="No website" name="nowebsite" domain="[('name', '=', 'Website_500')]"/>
                 </search>
             </field>
         </record>
