@@ -6,7 +6,7 @@ from odoo import models, fields, api
 from datetime import timedelta
 
 
-class Course(models.Model):
+class Session(models.Model):
     _name = 'academy.session'
     _description = 'Session Info'
 
