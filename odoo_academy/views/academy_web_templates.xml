@@ -52,7 +52,7 @@
                         </p>
                         <h3>Students:</h3>
                         <ul>
-                            <t t-foreach="session_student_ids" t-as="student">
+                            <t t-foreach="session.student_ids" t-as="student">
                                 <li>
                                     <span t-field="student.name"/>
                                 </li>
