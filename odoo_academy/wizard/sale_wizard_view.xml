@@ -31,6 +31,13 @@
             </field>
         </record>
 
-        <act_window id="launch_sale_wizard" name="Create Sale Order" binding_model="academy.session" res_model="academy.sale.wizard" view_mode="form" target="new" />
+        <!-- <act_window id="launch_sale_wizard" name="Create Sale Order" binding_model="academy.session" res_model="academy.sale.wizard" view_mode="form" target="new" /> -->
+        <record model="ir.actions.act_window" id="launch_sale_wizard">
+            <field name="name">Create Sale Order</field>
+            <field name="binding_model_id" ref="odoo_academy.model_academy_session"/>
+            <field name="res_model">academy.sale.wizard</field>
+            <field name="view_mode">form</field>
+            <field name="target">new</field>
+        </record>
     </data>
 </odoo>
