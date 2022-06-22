@@ -1,20 +1,19 @@
 # -*- coding: utf-8 -*-
-
 {
-    'name': 'NYPW Shoes',
-    'application': True,
-    'summary': """App to manage NY P&W Shoes""",
+    'name': "TVU networks",
+    'summary': """automatically cancel quotations which are no longer relevant, as defined by the quotation passing 
+    its expiration date.""",
     'description': """
-        App to manage NY P&W Shoes:
     """,
-    'license': 'LGPL-3',
-    'author': 'Odoo',
-    'website': 'www.odoo.com',
+    'author': 'Odoo Inc',
+    'website': 'https://www.odoo.com/',
     'category': 'Training',
-    'version': '0.1',
-    'depends': ['base', 'product'],
+    'application': False,
+    'version': '1.0',
+    'license': 'OPL-1',
+    'depends': ['sale'],
     'data': [
-        'views/product_views_inherit.xml',
+        'data/ir_cron_data.xml'
     ],
     'demo': [
     ]
