@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from odoo import models, fields, api
-from odoo.exceptions import UserError, ValidationError
+from odoo.exceptions import ValidationError
 
 
 class ProductTemplate(models.Model):
@@ -11,7 +11,8 @@ class ProductTemplate(models.Model):
         string='Pair per case', default=None, required=True)
     price_per_pair = fields.Monetary(
         string='Price per pair', default=None, required=True)
-    sales_price = fields.Monetary(compute='_compute_sales_price', string='Sales Price', store=True)
+    sales_price = fields.Monetary(
+        compute='_compute_sales_price', string='Sales Price', store=True)
 
     @api.constrains('pair_per_case', 'price_per_pair')
     def _check_pair_and_price(self):
