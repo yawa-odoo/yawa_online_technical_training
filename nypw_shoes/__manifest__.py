@@ -8,10 +8,10 @@
         App to manage NY P&W Shoes:
     """,
     'license': 'LGPL-3',
-    'author': 'Odoo',
+    'author': 'Odoo Inc',
     'website': 'www.odoo.com',
     'category': 'Training',
-    'version': '0.1',
+    'version': '1.0',
     'depends': ['base', 'product'],
     'data': [
         'views/product_views_inherit.xml',
