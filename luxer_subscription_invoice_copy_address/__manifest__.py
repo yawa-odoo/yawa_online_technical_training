@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+
 {
     'name': "Luxer - Copy Property to Invoice",
     'summary': """

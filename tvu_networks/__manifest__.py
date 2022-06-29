@@ -7,7 +7,7 @@
     """,
     'description': """
         task_id: 2874339
-        Added a scheduled action and _remove_expired_quotations method to sale.order to auto-cancel expired quotations
+        Added a scheduled action and '_remove_expired_quotations' method to sale.order to auto-cancel expired quotations
     """,
     'author': 'Odoo Inc',
     'website': 'https://www.odoo.com/',
